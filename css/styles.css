@@ -889,7 +889,7 @@ footer > .container {
   border-radius: 50px;
 }
 
-.modal-input-label:hover .input-icon,
+.input-icon-position:hover .input-icon,
 .modal-input:focus + .input-icon,
 .modal-btn:hover .modal-icon,
 .modal-btn:focus .modal-icon {
