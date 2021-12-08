@@ -934,6 +934,7 @@ footer > .container {
 
 .modal-label-text {
   display: block;
+  margin-bottom: 4px;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
