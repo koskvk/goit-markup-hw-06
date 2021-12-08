@@ -889,7 +889,7 @@ footer > .container {
   border-radius: 50px;
 }
 
-.input-icon-position:hover .input-icon,
+.label-item:hover .input-icon,
 .modal-input:focus + .input-icon,
 .modal-btn:hover .modal-icon,
 .modal-btn:focus .modal-icon {
@@ -922,19 +922,15 @@ footer > .container {
   text-align: center;
 }
 
+.label-item {
+  margin-bottom: 10px;
+}
+
 .modal-input-label {
   display: block;
   text-align: left;
   margin-bottom: 4px;
-}
 
-.modal-input-textarea {
-  margin-bottom: 20px;
-}
-
-.modal-label-text {
-  display: block;
-  margin-bottom: 4px;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -944,9 +940,12 @@ footer > .container {
   color: var(--primary-text-color);
 }
 
+.label-item-textarea {
+  margin-bottom: 20px;
+}
+
 .input-icon-position {
   position: relative;
-  margin-bottom: 10px;
 }
 
 .modal-input {
